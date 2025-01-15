@@ -5,7 +5,15 @@ import Link from 'next/link';
 const experiences = [
   {
     topic: 'Programming Languages',
-    list: ['JavaScript / TypeScript', 'Go Lang', 'Python', 'C#', 'Java'],
+    list: [
+      'JavaScript / TypeScript',
+      'Go Lang',
+      'Python',
+      'C#',
+      'Java',
+      'HTML',
+      'CSS / SCSS',
+    ],
   },
   {
     topic: 'Databases',
@@ -25,6 +33,32 @@ const experiences = [
   {
     topic: 'Cloud Platforms',
     list: ['AWS', 'Microsoft Azure'],
+  },
+  {
+    topic: 'Frameworks',
+    list: [
+      'React',
+      'Next.js',
+      'Gatsby',
+      'jQuery',
+      'Node.js',
+      'Express.js',
+      'ASP.NET Core',
+      'Spring Boot',
+      'Serverless',
+    ],
+  },
+  {
+    topic: 'API',
+    list: ['REST', 'GraphQL', 'gRPC'],
+  },
+  {
+    topic: 'CSS Frameworks',
+    list: ['Ant Design', 'Material UI'],
+  },
+  {
+    topic: 'Headless CMS',
+    list: ['Strapi'],
   },
 ];
 

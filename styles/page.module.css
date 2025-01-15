@@ -1,0 +1,124 @@
+.backgroundContainer {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background);
+  display: grid;
+}
+
+.photoBackgroundContainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.photoBackground {
+  height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+
+  background-image: url('/maridin-san-miguel.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
+  box-shadow: -150px 100px 60px -100px rgba(0, 0, 0, 1) inset;
+
+  @media screen and (max-width: 600px) {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.introContainer {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  z-index: 1;
+  padding: 50px;
+  @media screen and (max-width: 400px) {
+    padding: 20px;
+  }
+}
+
+.introContent {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.intro {
+  color: var(--foreground);
+  text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.38);
+  max-width: 400px;
+  display: grid;
+  gap: 30px;
+}
+
+.intro h1 {
+  font-size: 55px;
+  line-height: 0.9;
+  color: var(--accent);
+}
+
+.appsLink {
+  width: fit-content;
+  background-color: var(--accent);
+  padding: 10px 15px;
+  color: var(--foreground);
+}
+
+.appsLink:hover {
+  background-color: var(--light-accent);
+}
+
+.experiencesContainer {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 100vh;
+  padding: 50px;
+  @media screen and (max-width: 400px) {
+    padding: 20px;
+  }
+}
+
+.experiencesContent {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  gap: 50px;
+}
+
+.experiencesContainer h2 {
+  font-size: 40px;
+}
+
+.experiencesTopics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.experiencesTopic h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.experiencesTopic ul {
+  font-size: 15px;
+  /* padding-left: 10px; */
+  margin-left: 15px;
+  display: grid;
+  gap: 5px;
+}

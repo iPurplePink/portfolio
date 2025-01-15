@@ -60,6 +60,10 @@ const experiences = [
     topic: 'Headless CMS',
     list: ['Strapi'],
   },
+  {
+    topic: 'AI models',
+    list: ['Llama'],
+  },
 ];
 
 const Home = () => {

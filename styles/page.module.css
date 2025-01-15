@@ -18,7 +18,7 @@
   max-width: 1000px;
   margin: auto;
 
-  background-image: url('/maridin-san-miguel.png');
+  background-image: url('../app/maridin-san-miguel.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
